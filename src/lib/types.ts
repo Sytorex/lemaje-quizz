@@ -3,6 +3,7 @@ export type Question = {
 };
 
 export type Theme = {
+	id: number;
 	title: string;
 	questions: Question[];
 };

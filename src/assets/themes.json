@@ -5,9 +5,27 @@
         "questions": [
           { "question": "Quel événement marque le début de la Révolution française ?" },
           { "question": "Qui était le premier empereur de Rome ?" },
-          { "question": "Quel traité a mis fin à la Première Guerre mondiale ?" }
+          { "question": "Quel traité a mis fin à la Première Guerre mondiale ?" },
+          { "question": "Quel roi de France a été exécuté en 1793 ?" },
+          { "question": "Quel est le nom de la période de paix en Europe après les guerres napoléoniennes ?" },
+          { "question": "Qui a découvert l'Amérique en 1492 ?" },
+          { "question": "Quel empire a été fondé par Gengis Khan ?" },
+          { "question": "Quelle guerre a opposé le Nord et le Sud des États-Unis ?" },
+          { "question": "Quel événement a déclenché la Seconde Guerre mondiale ?" },
+          { "question": "Quel célèbre discours a été prononcé par Martin Luther King en 1963 ?" },
+          { "question": "Quel pays a été le premier à accorder le droit de vote aux femmes ?" },
+          { "question": "Qui était le leader du mouvement indépendantiste indien ?" },
+          { "question": "Quel était le nom de la dynastie qui a régné sur la Chine durant la plus grande partie de l'histoire impériale ?" },
+          { "question": "Quel événement a eu lieu le 11 septembre 2001 aux États-Unis ?" },
+          { "question": "Quelle révolution a mené à l'abolition de la monarchie au Royaume-Uni ?" },
+          { "question": "Qui a été le premier président des États-Unis ?" },
+          { "question": "Quel mouvement artistique et culturel est né à la Renaissance ?" },
+          { "question": "Quel traité a été signé en 1648, mettant fin à la guerre de Trente Ans ?" },
+          { "question": "Qui a été le dernier tsar de Russie ?" },
+          { "question": "Quel était le principal objectif des croisades ?" },
+          { "question": "Quel mouvement a mis fin à l'apartheid en Afrique du Sud ?" }
         ]
-      },
+      },      
       {
         "title": "Géographie",
         "questions": [

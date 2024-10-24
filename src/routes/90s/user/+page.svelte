@@ -1,88 +1,79 @@
 <script lang="ts">
-  import type { Theme } from '$lib/types';
-  import themes from '../../../assets/themes.json';
-	
+    import { allThemes } from '$lib/allTheme';
+    import { countdown, currentQuestionIndex, score, selectedTheme, visitedThemes } from '$lib/stores';
+    import type { Theme } from '$lib/types';
+    import { onMount } from 'svelte';
 
-	const allThemes: Theme[] = themes.themes;
-	let selectedTheme: number | null = null;
-	const visitedTheme: number[] = [];
+    // Animation state variables
+    let animateOut = false;
+    let animateIn = false;
 
-	// Example visited
-	visitedTheme.push(0);
-	visitedTheme.push(3);
-	visitedTheme.push(5);
-	visitedTheme.push(14);
+    let currentQuestion: string = 'Prêt ?';
+    $: if ($currentQuestionIndex !== null) {
+        animateOut = true; // Lance l'animation de sortie
+    }
 
-	// Fonction appelée lors du clic sur un thème
-	function handleClick(index: number) {
-		if (visitedTheme.includes(index)) {
-			return;
-		}
-		selectedTheme = index;
-		alert(`Clicked on theme index: ${index}`);
-		localStorage.setItem('selectedTheme', JSON.stringify(index));
-	}
+    function handleClick(id: number) {
+        if ($visitedThemes.includes(id)) return;
+		const newSelectedTheme: Theme = allThemes[id];
+        selectedTheme.set(newSelectedTheme);
+    }
+
+    // Fonction appelée à la fin de la transition de sortie
+    function handleAnimationEnd() {
+        if (animateOut) {
+            // On change de question après l'animation de sortie
+            currentQuestion = getCurrentQuestionIndex();
+            
+            animateOut = false;
+            animateIn = true; // Lance l'animation d'entrée
+        } else if (animateIn) {
+            animateIn = false; // Animation d'entrée terminée
+        }
+    }
+
+    function getCurrentQuestionIndex() {
+        if (!$selectedTheme) {
+            return 'Thème non trouvé';
+        } else if ($currentQuestionIndex === null) {
+            return 'Prêt ?';
+        } else if ($currentQuestionIndex < 0) {
+            return 'Pause / Reset en cours';
+        } else {
+            return $selectedTheme.questions[$currentQuestionIndex].question;
+        }
+    }
+
+    onMount(() => {
+        animateIn = false;
+        animateOut = false;
+    });
 </script>
 
 <section id="user-90s">
-	{#if selectedTheme === null}
-		<div class="grid-container">
-			{#each allThemes as theme, index}
-				<!-- svelte-ignore a11y-click-events-have-key-events -->
-				<!-- svelte-ignore a11y-no-static-element-interactions -->
-				<div class="grid-item {visitedTheme.includes(index) ? 'visited' : ''}" on:click={() => handleClick(index)}>
-					{theme.title}
-				</div>
-			{/each}
-		</div>
-	<!-- Else -->
-	{:else}
-		<h1>{allThemes[selectedTheme].title}</h1>
+    {#if $selectedTheme === null}
+        <div class="theme-container">
+            {#each allThemes as theme}
+                <button class="theme-item text {$visitedThemes.includes(theme.id) ? 'visited' : ''}" on:click={() => { handleClick(theme.id); }}>
+                    {theme.title}
+                </button>
+            {/each}
+        </div>
+    {:else}
+        <h1>{$selectedTheme.title}</h1>
 
-		<p id="current-question">Prêt ?</p>
-
-		<div>
-			<span id="chrono"></span>
-			<span id="score">0</span>
-		</div>
-	{/if}
+        <div class="main-container">
+            <div id="current-question">
+                <p class="text {animateOut ? 'out' : ''} {animateIn ? 'in' : ''}" on:transitionend={handleAnimationEnd}>{currentQuestion}</p>
+            </div>
+    
+            <div class="data-container">
+                <div id="score"><p>{$score}</p></div>
+                <div id="countdown"><p>{$countdown}</p></div>
+            </div>
+        </div>
+    {/if}
 </section>
-
-
-<style lang="scss">
-	.grid-container {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		gap: 50px;
-		width: 90%;
-	}
-
-	.grid-item {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-image: linear-gradient(45deg, #466AA4, #7BD5DC);
-		font-size: 3.5rem;
-		border: 5px solid #ccc;
-		padding: 20px;
-		cursor: pointer;
-		color: #fff;
-		font-weight: bold;
-		-webkit-text-stroke: 2px black;
-		text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-		transition: transform 0.2s;
-
-		&:not(.visited) {
-			&:hover {
-				transform: scale(1.1);
-			}
-		}
-
-		&.visited {
-			cursor: not-allowed;
-			-webkit-text-stroke: 0;
-			color: #253857;
-			filter: brightness(0.25);
-		}
-	}
-</style>
+{#if $selectedTheme === null}
+    <div id="black-box"></div>
+{/if}
