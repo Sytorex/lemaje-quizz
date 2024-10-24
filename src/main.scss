@@ -9,18 +9,83 @@ html {
 }
 
 body {
-    background-image: linear-gradient(#934FCE, #C388F9);
-    font-family: 'Raleway', sans-serif;
+    // background-image: linear-gradient(#934FCE, #C388F9);
+    background-color: #000;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-variant-numeric: lining-nums;
-    color: #D9D9D9;
+    color: #fff;
     overflow-x: hidden;
     overflow-y: auto;
     height: 100vh;
+    font-size: 2rem;
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
 }
 
-@font-face {
-    font-family: "Raleway";
-    src: url("Raleway.ttf") format('truetype');
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+ul.multi-column {
+    column-count: 4; /* Nombre de colonnes souhaité */
+    column-gap: 1em; /* Espace entre les colonnes */
+    list-style: none;
+    padding: 0;
+}
+
+ul.multi-column li {
+    break-inside: avoid; /* Évite que les éléments soient coupés entre les colonnes */
+    padding: 0.5em 0; /* Espacement entre les éléments */
+}
+
+#admin-90s {
+    display: flex;
+    gap: 5em;
+    flex-direction: column;
+    padding-top: 2em;
+
+    h1 {
+        padding-bottom: 2em;
+    }
+
+    > div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h2 {
+            margin-bottom: 1em;
+        }
+    }
 }

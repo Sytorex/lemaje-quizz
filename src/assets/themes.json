@@ -1,0 +1,133 @@
+{
+    "themes": [
+      {
+        "title": "Histoire",
+        "questions": [
+          { "question": "Quel événement marque le début de la Révolution française ?" },
+          { "question": "Qui était le premier empereur de Rome ?" },
+          { "question": "Quel traité a mis fin à la Première Guerre mondiale ?" }
+        ]
+      },
+      {
+        "title": "Géographie",
+        "questions": [
+          { "question": "Quelle est la capitale du Canada ?" },
+          { "question": "Quel est le plus grand désert du monde ?" },
+          { "question": "Quelle est la plus grande île de la Terre ?" }
+        ]
+      },
+      {
+        "title": "Science",
+        "questions": [
+          { "question": "Quelle est la planète la plus proche du Soleil ?" },
+          { "question": "Qui a découvert la loi de la gravitation universelle ?" },
+          { "question": "Quel est le plus grand organe du corps humain ?" }
+        ]
+      },
+      {
+        "title": "Technologie",
+        "questions": [
+          { "question": "Quel est le langage de programmation utilisé pour le développement d'Android ?" },
+          { "question": "Quel moteur de recherche est le plus utilisé dans le monde ?" },
+          { "question": "Qui est considéré comme le fondateur de Microsoft ?" }
+        ]
+      },
+      {
+        "title": "Littérature",
+        "questions": [
+          { "question": "Qui a écrit 'Les Misérables' ?" },
+          { "question": "Quel roman célèbre commence par 'Call me Ishmael' ?" },
+          { "question": "Qui est l'auteur de '1984' ?" }
+        ]
+      },
+      {
+        "title": "Art",
+        "questions": [
+          { "question": "Qui a peint 'La Joconde' ?" },
+          { "question": "Dans quel musée se trouve le 'Guernica' de Picasso ?" },
+          { "question": "Quel mouvement artistique est associé à Salvador Dalí ?" }
+        ]
+      },
+      {
+        "title": "Cinéma",
+        "questions": [
+          { "question": "Qui est le réalisateur de 'Jurassic Park' ?" },
+          { "question": "Quel film a remporté l'Oscar du meilleur film en 1994 ?" },
+          { "question": "Dans quel film trouve-t-on le personnage de Tony Stark ?" }
+        ]
+      },
+      {
+        "title": "Musique",
+        "questions": [
+          { "question": "Qui a composé la symphonie 'Eroica' ?" },
+          { "question": "Quel groupe est connu pour la chanson 'Bohemian Rhapsody' ?" },
+          { "question": "Quel artiste est surnommé 'The King of Pop' ?" }
+        ]
+      },
+      {
+        "title": "Sport",
+        "questions": [
+          { "question": "Combien de joueurs composent une équipe de football sur le terrain ?" },
+          { "question": "Quel pays a remporté la Coupe du Monde de football en 2018 ?" },
+          { "question": "Quel coureur a gagné 7 fois le Tour de France avant d'être déchu de ses titres ?" }
+        ]
+      },
+      {
+        "title": "Mathématiques",
+        "questions": [
+          { "question": "Quelle est la formule de l'aire d'un cercle ?" },
+          { "question": "Quel est le nombre décimal approximatif de Pi ?" },
+          { "question": "Qui est le créateur de la géométrie analytique ?" }
+        ]
+      },
+      {
+        "title": "Philosophie",
+        "questions": [
+          { "question": "Qui est l'auteur de 'Le Banquet' ?" },
+          { "question": "Quel philosophe est connu pour la citation 'Je pense, donc je suis' ?" },
+          { "question": "Quelle œuvre célèbre a été écrite par Friedrich Nietzsche ?" }
+        ]
+      },
+      {
+        "title": "Mythologie",
+        "questions": [
+          { "question": "Quel est le dieu grec du ciel et de la foudre ?" },
+          { "question": "Quel héros grec a combattu dans la guerre de Troie et tué Hector ?" },
+          { "question": "Dans la mythologie nordique, comment s'appelle l'arbre du monde ?" }
+        ]
+      },
+      {
+        "title": "Politique",
+        "questions": [
+          { "question": "Quel président américain a démissionné à cause du scandale du Watergate ?" },
+          { "question": "Quel est le nom du système de gouvernement de la France ?" },
+          { "question": "Qui est l'actuel secrétaire général de l'ONU ?" }
+        ]
+      },
+      {
+        "title": "Économie",
+        "questions": [
+          { "question": "Quelle est la monnaie officielle du Japon ?" },
+          { "question": "Qui a proposé la théorie de la 'main invisible' dans l'économie ?" },
+          { "question": "Quel est le pays avec le plus grand produit intérieur brut (PIB) ?" }
+        ]
+      },
+      {
+        "title": "Langues",
+        "questions": [
+          { "question": "Quelle langue est principalement parlée au Brésil ?" },
+          { "question": "Quel pays a pour langues officielles l'anglais et le swahili ?" },
+          { "question": "Comment dit-on 'merci' en italien ?" }
+        ]
+      },
+      {
+        "title": "Culture générale",
+        "questions": [
+          { "question": "Quel est le symbole chimique de l'or ?" },
+          { "question": "Dans quel pays se trouve la tour Eiffel ?" },
+          { "question": "Combien de continents y a-t-il dans le monde ?" }
+        ]
+      }
+    ]
+  }
+  
