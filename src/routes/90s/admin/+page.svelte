@@ -23,7 +23,7 @@
 						<div class="cancel-btn">
 							
 							{#if $visitedThemes.includes(theme.id)}
-								<button class="btn" on:click={() => cancelVisitedTheme(theme.id)}>Annuler ({theme.title})</button>
+								<button class="btn" on:click={() => cancelVisitedTheme(theme.id)}>Annuler {theme.title}</button>
 							{/if}
 						</div>
 					{/each}

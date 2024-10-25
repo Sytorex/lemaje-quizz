@@ -23,7 +23,7 @@
     function handleAnimationEnd() {
         if (animateOut) {
             // On change de question après l'animation de sortie
-            currentQuestion = getCurrentQuestionIndex();
+            currentQuestion = getCurrentQuestion();
             
             animateOut = false;
             animateIn = true; // Lance l'animation d'entrée
@@ -32,7 +32,7 @@
         }
     }
 
-    function getCurrentQuestionIndex() {
+    function getCurrentQuestion() {
         if (!$selectedTheme) {
             return 'Thème non trouvé';
         } else if ($currentQuestionIndex === null) {
@@ -74,6 +74,7 @@
         </div>
     {/if}
 </section>
+
 {#if $selectedTheme === null}
     <div id="black-box"></div>
 {/if}
