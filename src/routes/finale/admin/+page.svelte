@@ -1,29 +1,26 @@
 <script lang="ts">
-	import { allThemes } from '$lib/allTheme';
-	import { visitedThemes } from '$lib/stores';
+    import { finaleTable } from "$lib/stores";
 
-	function cancelVisitedTheme(id: number) {
-		visitedThemes.update((themes) => themes.filter((themeId) => themeId !== id));
+	function randomizeTable() {
+		// Delete finaleTable store
+		finaleTable.update(() => {
+			return [];
+		});
 	}
 </script>
 
-<section id="admin-90s">
+<section id="admin-finale">
 	<h1>Page administrateur</h1>
 	<div>
-		<h2>Veuillez sélectionner un thème sur la page utilisateur</h2>
+		<div>
+			<h2>Veuillez sélectionner une case pour annuler ou retourner</h2>
+			<!-- Svelte input -->
+			<input type="number" name="cell-number" value="1" />
+			<button type="submit">Valider</button>
+		</div>
 
-		{#if $visitedThemes.length > 0}
-			<h3>Annuler un thème déjà validé</h3>
-			<div class="cancel-btn-container">
-				{#each allThemes as theme}
-					<div class="cancel-btn">
-						
-						{#if $visitedThemes.includes(theme.id)}
-							<button class="btn" on:click={() => cancelVisitedTheme(theme.id)}>Annuler {theme.title}</button>
-						{/if}
-					</div>
-				{/each}
-			</div>
-		{/if}
+		<button class="btn" on:click={() => randomizeTable() }>Mélanger le tableau</button>				
+	
+		
 	</div>
 </section>

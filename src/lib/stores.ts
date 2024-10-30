@@ -31,9 +31,31 @@ function createLocalStorageStore<T>(key: string, initialValue: T) {
     return store;
 }
 
-// Crée des stores synchronisés avec localStorage pour chaque élément
+function initFinaleTable() {
+    // Fill table
+    const finale_table: string[] = [];
+	for (let index = 0; index < 6; index++) {
+		finale_table.push('blue');
+		finale_table.push('red');
+		finale_table.push('yellow');
+		finale_table.push('white');
+		finale_table.push('white');
+	}
+
+    // Shuffle the table
+    return finale_table
+        .map(value => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({ value }) => value);
+}
+
+// Epreuve : 90s
 export const selectedTheme = createLocalStorageStore<Theme | null>('selectedTheme', null);
 export const countdown = createLocalStorageStore<number>('countdown', 90);
 export const score = createLocalStorageStore<number>('score', 0);
 export const visitedThemes = createLocalStorageStore<number[]>('visitedThemes', []);
 export const currentQuestionIndex = createLocalStorageStore<number | null>('currentQuestionIndex', null);
+
+// Epreuve : finale
+export const finaleScore = createLocalStorageStore<number[]>('finaleScore', [0, 0, 0]);
+export const finaleTable = createLocalStorageStore<string[]>('finaleTable', initFinaleTable());
