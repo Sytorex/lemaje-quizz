@@ -1,5 +1,5 @@
 import { writable } from 'svelte/store';
-import type { Theme } from './types';
+import type { FinaleCell, Theme } from './types';
 
 // Fonction pour créer un store synchronisé avec le localStorage
 function createLocalStorageStore<T>(key: string, initialValue: T) {
@@ -46,7 +46,9 @@ function initFinaleTable() {
     return finale_table
         .map(value => ({ value, sort: Math.random() }))
         .sort((a, b) => a.sort - b.sort)
-        .map(({ value }) => value);
+        .map(({ value }) => {
+            return {color: value, flipped: false};
+        });
 }
 
 // Epreuve : 90s
@@ -58,4 +60,4 @@ export const currentQuestionIndex = createLocalStorageStore<number | null>('curr
 
 // Epreuve : finale
 export const finaleScore = createLocalStorageStore<number[]>('finaleScore', [0, 0, 0]);
-export const finaleTable = createLocalStorageStore<string[]>('finaleTable', initFinaleTable());
+export const finaleTable = createLocalStorageStore<FinaleCell[]>('finaleTable', initFinaleTable());

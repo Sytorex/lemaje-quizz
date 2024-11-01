@@ -11,3 +11,8 @@ export type Theme = {
 export type QuizData = {
 	themes: Theme[];
 };
+
+export type FinaleCell = {
+	color: string;
+	flipped: boolean;
+};
