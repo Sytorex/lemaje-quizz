@@ -4,6 +4,11 @@
     function getHref(path: string) {
         return dev ? path : `${path}.html`;
     }
+
+    function resetSite() {
+        localStorage.clear();
+        alert('Il faut rafraîchir chaque page pour que les changements soient pris en compte');
+    }
 </script>
 
 <section id="home">
@@ -24,6 +29,6 @@
     </div>
 
     <div>
-        <button class="btn" on:click={() => { localStorage.clear(); }}>Reset du site</button>
+        <button class="btn" on:click={resetSite}>Réinitialiser le site</button>
     </div>
 </section>

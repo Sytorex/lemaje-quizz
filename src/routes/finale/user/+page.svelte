@@ -1,11 +1,12 @@
 <script lang="ts">
-    import { finaleTable } from "$lib/stores";
+    import { finaleCountdown, finaleScore, finaleShowScore, finaleTable } from "$lib/stores";
+    import { scoreColors } from "$lib/types";
     import Cell from "../../../components/Cell.svelte";
 
 	function flipCell(index: number) {
 		return function () {
 			finaleTable.update((table) => {
-				table[index].flipped = !table[index].flipped;
+				table[index].flipped = true;
 				return table;
 			});
 		};
@@ -29,4 +30,15 @@
 			{/each}
 		</div>
 	</section>
+</div>
+
+<div class="external-data-container">
+	<div id="finale-scores" style="display: {$finaleShowScore ? 'block' : 'none'}">
+		{#each scoreColors as color, i}
+			<div class="score {color}">
+				<p>{$finaleScore[i]}</p>
+			</div>
+		{/each}
+	</div>
+	<div id="finale-countdown"><p>{$finaleCountdown}</p></div>
 </div>

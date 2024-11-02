@@ -13,6 +13,18 @@
         startCountdown();
     }
 
+    function pauseChrono() {
+        pauseCountdown();
+        chronoLastQuestionIndex = get(currentQuestionIndex);
+        currentQuestionIndex.set(-1);
+    }
+
+    function resetChrono() {
+        resetCountdown();
+        chronoLastQuestionIndex = get(currentQuestionIndex);
+        currentQuestionIndex.set(-1);
+    }
+
     function startCountdown() {
         if (!interval) {
             interval = setInterval(() => {
@@ -28,18 +40,6 @@
         }
     }
 
-    function pauseChrono() {
-        pauseCountdown();
-        chronoLastQuestionIndex = get(currentQuestionIndex);
-        currentQuestionIndex.set(-1);
-    }
-
-    function resetChrono() {
-        resetCountdown();
-        chronoLastQuestionIndex = get(currentQuestionIndex);
-        currentQuestionIndex.set(-1);
-    }
-
     function pauseCountdown() {
         clearInterval(interval);
         interval = undefined;
@@ -49,6 +49,7 @@
         pauseCountdown();
         countdown.set(90);
     }
+
 
     function incrementScore() {
         score.update((n) => n + 1);
@@ -70,7 +71,7 @@
         if (chronoLastQuestionIndex !== null) {
             // On remet l'index de la question à la valeur sauvegardée
             currentQuestionIndex.set(chronoLastQuestionIndex);
-            startCountdown();
+            startChrono();
             chronoLastQuestionIndex = null;
 
             return;
@@ -80,7 +81,7 @@
 
         // Si on n'a pas encore sélectionné de question
         if (index === null) {
-            startCountdown();
+            startChrono();
             currentQuestionIndex.set(0);
             return;
         }

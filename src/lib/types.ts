@@ -16,3 +16,5 @@ export type FinaleCell = {
 	color: string;
 	flipped: boolean;
 };
+
+export const scoreColors = ['bleu', 'rouge', 'jaune'];
