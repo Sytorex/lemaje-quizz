@@ -3,6 +3,7 @@
     import { countdown, currentQuestionIndex, score, selectedTheme, visitedThemes } from '$lib/stores';
     import type { Theme } from '$lib/types';
     import { onMount } from 'svelte';
+    import { get } from 'svelte/store';
 
     // Animation state variables
     let animateOut = false;
@@ -17,6 +18,7 @@
         if ($visitedThemes.includes(id)) return;
 		const newSelectedTheme: Theme = allThemes[id];
         selectedTheme.set(newSelectedTheme);
+        currentQuestion = getCurrentQuestion();
     }
 
     // Fonction appelée à la fin de la transition de sortie
@@ -33,15 +35,15 @@
     }
 
     function getCurrentQuestion() {
+        const activeQuestionIndex = get(currentQuestionIndex);
         if (!$selectedTheme) {
             return 'Thème non trouvé';
-        } else if ($currentQuestionIndex === null) {
+        } else if (activeQuestionIndex === null) {
             return 'Prêt ?';
-        } else if ($currentQuestionIndex < 0) {
+        } else if (activeQuestionIndex < 0) {
             return 'Pause / Reset en cours';
         } else {
-            console.log("currentQuestionIndex: ", $currentQuestionIndex);
-            return $selectedTheme.questions[$currentQuestionIndex].question;
+            return $selectedTheme.questions[activeQuestionIndex].question;
         }
     }
 

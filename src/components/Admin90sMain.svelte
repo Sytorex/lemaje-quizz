@@ -115,7 +115,6 @@
         score.set(0);
         currentQuestionIndex.set(null);
         selectedTheme.set(null);
-        console.log("allo ?");
     }
 
     function validateTheme() {
@@ -124,9 +123,8 @@
     }
 
     function cancelTheme() {
-        selectedTheme.set(null);
+        // selectedTheme.set(null);
         resetTheme();
-        console.log("bah alors ?");
     }
 
     function handlePress(event: KeyboardEvent) {
