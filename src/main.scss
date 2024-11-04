@@ -208,7 +208,7 @@ h1 {
     #current-question {
         text-align: center;
         width: 85vw;
-        min-height: 20vh;
+        min-height: 45vh;
         font-size: 5rem;
         padding: 0.25em 1em;
         
@@ -221,15 +221,15 @@ h1 {
         background-image: radial-gradient(62% 100% at 10% 0%, #7BD5DCFF 1%, #FF000000 99%),radial-gradient(37% 100% at 85% 15%, #9BD8DAFF 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #697EA7FF 0%, #466AA4 100%);
     
         p {
-            transition: font-size 0.5s ease, opacity 0.5s ease;
+            transition: transform 0.35s ease, opacity 0.35s ease;
 
             &.out {
-                font-size: 0;
+                transform: scale(0);
                 opacity: 0;
             }
 
             &.in {
-                font-size: 5rem;
+                transform: scale(1);
                 opacity: 1;
             }
         }

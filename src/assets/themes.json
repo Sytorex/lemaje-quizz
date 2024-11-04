@@ -1,151 +1,157 @@
 {
-    "themes": [
-      {
-        "title": "Histoire",
-        "questions": [
-          { "question": "Quel événement marque le début de la Révolution française ?" },
-          { "question": "Qui était le premier empereur de Rome ?" },
-          { "question": "Quel traité a mis fin à la Première Guerre mondiale ?" },
-          { "question": "Quel roi de France a été exécuté en 1793 ?" },
-          { "question": "Quel est le nom de la période de paix en Europe après les guerres napoléoniennes ?" },
-          { "question": "Qui a découvert l'Amérique en 1492 ?" },
-          { "question": "Quel empire a été fondé par Gengis Khan ?" },
-          { "question": "Quelle guerre a opposé le Nord et le Sud des États-Unis ?" },
-          { "question": "Quel événement a déclenché la Seconde Guerre mondiale ?" },
-          { "question": "Quel célèbre discours a été prononcé par Martin Luther King en 1963 ?" },
-          { "question": "Quel pays a été le premier à accorder le droit de vote aux femmes ?" },
-          { "question": "Qui était le leader du mouvement indépendantiste indien ?" },
-          { "question": "Quel était le nom de la dynastie qui a régné sur la Chine durant la plus grande partie de l'histoire impériale ?" },
-          { "question": "Quel événement a eu lieu le 11 septembre 2001 aux États-Unis ?" },
-          { "question": "Quelle révolution a mené à l'abolition de la monarchie au Royaume-Uni ?" },
-          { "question": "Qui a été le premier président des États-Unis ?" },
-          { "question": "Quel mouvement artistique et culturel est né à la Renaissance ?" },
-          { "question": "Quel traité a été signé en 1648, mettant fin à la guerre de Trente Ans ?" },
-          { "question": "Qui a été le dernier tsar de Russie ?" },
-          { "question": "Quel était le principal objectif des croisades ?" },
-          { "question": "Quel mouvement a mis fin à l'apartheid en Afrique du Sud ?" }
-        ]
-      },      
-      {
-        "title": "Géographie",
-        "questions": [
-          { "question": "Quelle est la capitale du Canada ?" },
-          { "question": "Quel est le plus grand désert du monde ?" },
-          { "question": "Quelle est la plus grande île de la Terre ?" }
-        ]
-      },
-      {
-        "title": "Science",
-        "questions": [
-          { "question": "Quelle est la planète la plus proche du Soleil ?" },
-          { "question": "Qui a découvert la loi de la gravitation universelle ?" },
-          { "question": "Quel est le plus grand organe du corps humain ?" }
-        ]
-      },
-      {
-        "title": "Technologie",
-        "questions": [
-          { "question": "Quel est le langage de programmation utilisé pour le développement d'Android ?" },
-          { "question": "Quel moteur de recherche est le plus utilisé dans le monde ?" },
-          { "question": "Qui est considéré comme le fondateur de Microsoft ?" }
-        ]
-      },
-      {
-        "title": "Littérature",
-        "questions": [
-          { "question": "Qui a écrit 'Les Misérables' ?" },
-          { "question": "Quel roman célèbre commence par 'Call me Ishmael' ?" },
-          { "question": "Qui est l'auteur de '1984' ?" }
-        ]
-      },
-      {
-        "title": "Art",
-        "questions": [
-          { "question": "Qui a peint 'La Joconde' ?" },
-          { "question": "Dans quel musée se trouve le 'Guernica' de Picasso ?" },
-          { "question": "Quel mouvement artistique est associé à Salvador Dalí ?" }
-        ]
-      },
-      {
-        "title": "Cinéma",
-        "questions": [
-          { "question": "Qui est le réalisateur de 'Jurassic Park' ?" },
-          { "question": "Quel film a remporté l'Oscar du meilleur film en 1994 ?" },
-          { "question": "Dans quel film trouve-t-on le personnage de Tony Stark ?" }
-        ]
-      },
-      {
-        "title": "Musique",
-        "questions": [
-          { "question": "Qui a composé la symphonie 'Eroica' ?" },
-          { "question": "Quel groupe est connu pour la chanson 'Bohemian Rhapsody' ?" },
-          { "question": "Quel artiste est surnommé 'The King of Pop' ?" }
-        ]
-      },
-      {
-        "title": "Sport",
-        "questions": [
-          { "question": "Combien de joueurs composent une équipe de football sur le terrain ?" },
-          { "question": "Quel pays a remporté la Coupe du Monde de football en 2018 ?" },
-          { "question": "Quel coureur a gagné 7 fois le Tour de France avant d'être déchu de ses titres ?" }
-        ]
-      },
-      {
-        "title": "Mathématiques",
-        "questions": [
-          { "question": "Quelle est la formule de l'aire d'un cercle ?" },
-          { "question": "Quel est le nombre décimal approximatif de Pi ?" },
-          { "question": "Qui est le créateur de la géométrie analytique ?" }
-        ]
-      },
-      {
-        "title": "Philosophie",
-        "questions": [
-          { "question": "Qui est l'auteur de 'Le Banquet' ?" },
-          { "question": "Quel philosophe est connu pour la citation 'Je pense, donc je suis' ?" },
-          { "question": "Quelle œuvre célèbre a été écrite par Friedrich Nietzsche ?" }
-        ]
-      },
-      {
-        "title": "Mythologie",
-        "questions": [
-          { "question": "Quel est le dieu grec du ciel et de la foudre ?" },
-          { "question": "Quel héros grec a combattu dans la guerre de Troie et tué Hector ?" },
-          { "question": "Dans la mythologie nordique, comment s'appelle l'arbre du monde ?" }
-        ]
-      },
-      {
-        "title": "Politique",
-        "questions": [
-          { "question": "Quel président américain a démissionné à cause du scandale du Watergate ?" },
-          { "question": "Quel est le nom du système de gouvernement de la France ?" },
-          { "question": "Qui est l'actuel secrétaire général de l'ONU ?" }
-        ]
-      },
-      {
-        "title": "Économie",
-        "questions": [
-          { "question": "Quelle est la monnaie officielle du Japon ?" },
-          { "question": "Qui a proposé la théorie de la 'main invisible' dans l'économie ?" },
-          { "question": "Quel est le pays avec le plus grand produit intérieur brut (PIB) ?" }
-        ]
-      },
-      {
-        "title": "Langues",
-        "questions": [
-          { "question": "Quelle langue est principalement parlée au Brésil ?" },
-          { "question": "Quel pays a pour langues officielles l'anglais et le swahili ?" },
-          { "question": "Comment dit-on 'merci' en italien ?" }
-        ]
-      },
-      {
-        "title": "Culture générale",
-        "questions": [
-          { "question": "Quel est le symbole chimique de l'or ?" },
-          { "question": "Dans quel pays se trouve la tour Eiffel ?" },
-          { "question": "Combien de continents y a-t-il dans le monde ?" }
-        ]
-      }
-    ]
-  }
-  
+  "themes": [
+    {
+      "title": "Gastronomie",
+      "questions": [
+        { "question": "Dans la gastronomie, qui est le concepteur de la meilleure purée de pommes de terre au monde ?" },
+        { "question": "Quel dessert est composé de deux coques d’amande et d’une ganache ?" },
+        { "question": "Lorsque que l’on parle de royal, de traditionnel ou de sept légumes, de quel plat parle-t-on ?" },
+        { "question": "Quel plat québécois est composé de frites, de fromage en grains et de sauce brune ?" },
+        { "question": "Au Mexique, comment nomme-t-on une galette de maïs garnie de fromage et d’autres ingrédients ?" },
+        { "question": "Quel chef vivant au Québec est connu pour ses vidéos présentant des recettes sur un ton humoristique ?" },
+        { "question": "Quelle est la spécialité de la Bourgogne ?" },
+        { "question": "Que ce qui différencie la mayonnaise d’une sauce rémoulade ?" },
+        { "question": "Quels sont les 3 différents ingrédients de la sauce Béchamel ?" },
+        { "question": "Qu’indique le terme “Rossini” sur une viande ?" },
+        { "question": "Quelle est la particularité commune à l'ensemble des poissons qui composent la Bouillabaisse ?" },
+        { "question": "Si vous allez à Metz, et que vous commandez la spécialité régionale, vous aurez ?" },
+        { "question": "Quel plat , contenant une viande crue, est servi avec des frites et un œuf cru ?" },
+        { "question": "Quel personnalité française est connue pour son émission culinaire “La cuisine des mousquetaires” ?" },
+        { "question": "Lorsque l’on parles de “fines” ou de “spéciales” suivies d’un Numéro, de quoi parle t-on ?" },
+        { "question": "Lorsque vous gratinez des pommes de terres, du lait et de la crème fraîche avant de le passer au four, quel plat cuisinez-vous ?" },
+        { "question": "Quel poisson, vendu en conserve, est connu pour être le poisson le plus malodorant au monde ?" },
+        { "question": "Quel plat anglais vous est donné quand vous avez un poisson pané et des frites ?" },
+        { "question": "Comment se nomme une préparation gratinée à base d’aubergines, d’oignons et de tomates liés par une sauce blanche ?" },
+        { "question": "Quel chef britannique est célèbre pour ses forts coups de gueule dans ses émissions ?" }
+      ]
+    },
+    {
+      "title": "Histoire",
+      "questions": [
+        { "question": "A quelle date est né le World-Wide Web ?" },
+        { "question": "Quel événement a déclenché le début de la Première Guerre mondiale ?" },
+        { "question": "A quoi fait référence le “jeudi noir” ?" },
+        { "question": "Par qui la Constitution est renversée le 9 et 10 Novembre 1799 ?" },
+        { "question": "A quelle date ont marché pour la première fois les premiers hommes sur la Lune ?" },
+        { "question": "A quelle ville Vercingétorix dépose-t-il les armes face à Jules César ?" },
+        { "question": "Que dénonce l’article “J’Accuse” d’Emile Zola ?" },
+        { "question": "Que s’est t-il déroulé le 18 juin 1940 ?" },
+        { "question": "Quel pays est considéré comme le berceau de la démocratie ?" },
+        { "question": "Quel révolutionnaire a mené la révolution Russe de 1917 ?" },
+        { "question": "Quel célèbre leader indien a mené la lutte pour l'indépendance de l'Inde par la non-violence ?" },
+        { "question": "Qui était le chef des armées françaises lors de la bataille d'Orléans pendant la guerre de Cent Ans ?" },
+        { "question": "Quel ancien empire contrôlait une grande partie de l’Amérique centrale et a construit la ville de Tikal ?" },
+        { "question": "Quel artiste de la Renaissance est célèbre pour avoir peint La Cène ?" },
+        { "question": "Quelle ville d’Espagne a été le théâtre d’un bombardement meurtrier en 1937, qui a inspiré un célèbre tableau de Picasso ?" },
+        { "question": "Quel célèbre chef militaire carthaginois a traversé les Alpes avec des éléphants pour attaquer Rome ?" },
+        { "question": "Quel roi anglais a épousé six femmes et a fondé l’Église anglicane ?" },
+        { "question": "Quel célèbre pharaon égyptien de la XVIIIe dynastie est connu pour son tombeau découvert presque intact en 1922 ?" },
+        { "question": "Quelle ville antique, détruite par une éruption volcanique en l'an 79, est restée figée sous les cendres ?" },
+        { "question": "Quel explorateur espagnol a conquis l'Empire aztèque au début du XVIe siècle ?" }
+      ]
+    },
+    {
+      "title": "Cinéma Français",
+      "questions": [
+        { "question": "Lorem Ipsum" }
+      ]
+    },
+    {
+      "title": "Séries Cultes",
+      "questions": [
+        { "question": "Lorem Ipsum" }
+      ]
+    },
+    {
+      "title": "Jeu-Vidéo",
+      "questions": [
+        { "question": "Lorem Ipsum" }
+      ]
+    },
+    {
+      "title": "Astronomie",
+      "questions": [
+        { "question": "Lorem Ipsum" }
+      ]
+    },
+    {
+      "title": "Musique",
+      "questions": [
+        { "question": "Lorem Ipsum" }
+      ]
+    },
+    {
+      "title": "Voyage",
+      "questions": [
+        { "question": "Lorem Ipsum" }
+      ]
+    },
+    {
+      "title": "Faune et Flore",
+      "questions": [
+        { "question": "Quel insecte est surnommé 'le fossoyeur' pour son rôle essentiel dans la décomposition de la matière organique ?" },
+        { "question": "Quel mammifère d’Amérique du Sud est célèbre pour ses habitudes nocturnes et pour dormir enroulé, souvent suspendu à une branche ?" },
+        { "question": "Quel est le plus petit oiseau du monde, pesant à peine 2 grammes ?" },
+        { "question": "Quelle est la fleur nationale du Japon, symbole de la beauté éphémère ?" },
+        { "question": "Quel poisson venimeux peut gonfler son corps en se remplissant d’eau pour se défendre contre les prédateurs ?" },
+        { "question": "Quelle espèce d’arbre, souvent associée aux régions méditerranéennes, produit des olives et est un symbole de paix ?" },
+        { "question": "Quel mammifère marin est célèbre pour sa grande intelligence et sa capacité à communiquer par des sifflements et des clics ?" },
+        { "question": "Quelle plante carnivore, connue pour ses pièges en forme de mâchoires, attire et digère les insectes pour se nourrir ?" },
+        { "question": "Quelle plante est connue pour ses propriétés médicinales et son gel, souvent utilisé pour apaiser les brûlures et les irritations de la peau ?" },
+        { "question": "Quelle espèce d'arbre, souvent plantée dans les villes pour ses feuilles en forme de cœur, est connue pour sa capacité à purifier l'air ?" },
+        { "question": "Quel insecte est célèbre pour sa capacité à produire de la soie et est souvent associé à l'industrie de la soie en Asie ?" },
+        { "question": "Quelle plante, connue pour ses grandes fleurs colorées et son parfum envoûtant, est souvent utilisée dans les jardins et en aromathérapie ?" },
+        { "question": "Quel oiseau est connu pour son cri nocturne et son plumage discret ?" },
+        { "question": "Quelle plante, utilisée dans la cuisine méditerranéenne, est connue pour ses feuilles aromatiques et ses fleurs violettes ?" },
+        { "question": "Quel animal est souvent appelé 'l’ours des mers' et est connu pour sa fourrure blanche et son habitat arctique ?" },
+        { "question": "Quelle plante aquatique, connue pour ses grandes feuilles flottantes et ses fleurs magnifiques, est souvent associée aux étangs et aux lacs ?" },
+        { "question": "Quel animal est connu pour sa capacité à changer de couleur en fonction de son environnement et de ses émotions, et vit principalement dans les régions tropicales ?" },
+        { "question": "Quel arbre fournit le caoutchouc ?" },
+        { "question": "Quelle plante, souvent associée aux régions désertiques, est connue pour sa capacité à retenir l'eau dans ses tiges ?" },
+        { "question": "Quel grand rongeur, connu pour sa queue plate et ses capacités de construction, construit des barrages dans les rivières et les ruisseaux ?" }
+      ]
+    },
+    {
+      "title": "Sports",
+      "questions": [
+        { "question": "Lorem Ipsum" }
+      ]
+    },
+    {
+      "title": "Littérature",
+      "questions": [
+        { "question": "Lorem Ipsum" }
+      ]
+    },
+    {
+      "title": "Sciences et Découvertes",
+      "questions": [
+        { "question": "Lorem Ipsum" }
+      ]
+    },
+    {
+      "title": "Mythologie",
+      "questions": [
+        { "question": "Lorem Ipsum" }
+      ]
+    },
+    {
+      "title": "Télévision",
+      "questions": [
+        { "question": "Lorem Ipsum" }
+      ]
+    },
+    {
+      "title": "Mode",
+      "questions": [
+        { "question": "Lorem Ipsum" }
+      ]
+    },
+    {
+      "title": "BD & Comics",
+      "questions": [
+        { "question": "Lorem Ipsum" }
+      ]
+    }
+  ]
+}

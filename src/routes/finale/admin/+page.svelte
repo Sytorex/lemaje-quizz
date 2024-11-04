@@ -2,8 +2,24 @@
     import { finaleCountdown, finaleShowScore, finaleTable, initFinaleTable } from "$lib/stores";
     import FinaleAdminScore from "../../../components/FinaleAdminScore.svelte";
 
+	let cellNumber = 1;
+	let chronoInterval: number | undefined;
+	let flipInterval: number | undefined;
+	let tempTableTimeout: number | undefined;
+
 	function randomizeTable() {
-		flipTable(false);
+		clearInterval(flipInterval);
+		flipInterval = undefined;
+
+		clearTimeout(tempTableTimeout);
+		tempTableTimeout = undefined;
+
+		finaleTable.update((table) => {
+			table.forEach((cell) => {
+				cell.flipped = false;
+			});
+			return table;
+		});
 		
 		// Wait 0.7 seconds
 		setTimeout(() => {
@@ -11,34 +27,47 @@
 			finaleTable.update(() => {
 				return initFinaleTable();
 			});
-			console.log("Tableau réinitialisé");
 		}, 700);
 	
 	}
 
-	function flipCell(index: number) {
+	function flipCell(index: number, isFlipped: boolean | undefined = undefined) {
 		return function () {
 			finaleTable.update((table) => {
-				table[index].flipped = !table[index].flipped;
+				table[index].flipped = isFlipped ?? !table[index].flipped;
 				return table;
 			});
 		};
 	}
 
 	function flipTable(isFlipped: boolean) {
-		finaleTable.update((table) => {
-			table.forEach((cell) => {
-				cell.flipped = isFlipped;
-			});
-			return table;
-		});
+		clearInterval(flipInterval);
+		flipInterval = undefined;
+		
+		let index = 0;
+		flipInterval = setInterval(() => {
+			if (index >= 30) { // Arrête l'intervalle lorsque toutes les cases sont traitées
+				clearInterval(flipInterval);
+				flipInterval = undefined;
+			} else {
+				flipCell(index, isFlipped)();
+				index++;
+			}
+		}, 200);
 	}
 
 	function flipTempTable() {
+		if (tempTableTimeout) {
+			return;
+		}
+		
 		// Flip all cells
 		flipTable(true);
 		// Wait 10 seconds
-		setTimeout(() => {
+		tempTableTimeout = setTimeout(() => {
+			clearTimeout(tempTableTimeout);
+			tempTableTimeout = undefined;
+
 			// Flip back
 			flipTable(false);
 		}, 10000);
@@ -49,12 +78,12 @@
 	}
 
 	function startCountdown() {
-        if (!interval) {
-            interval = setInterval(() => {
+        if (!chronoInterval) {
+            chronoInterval = setInterval(() => {
                 finaleCountdown.update((n) => {
                     if (n === 0) {
-                        clearInterval(interval);
-                        interval = undefined;
+                        clearInterval(chronoInterval);
+                        chronoInterval = undefined;
                         return 0;
                     }
                     return n - 1;
@@ -64,17 +93,14 @@
     }
 
     function pauseCountdown() {
-        clearInterval(interval);
-        interval = undefined;
+        clearInterval(chronoInterval);
+        chronoInterval = undefined;
     }
 
     function resetCountdown() {
         pauseCountdown();
         finaleCountdown.set(90);
     }
-
-	let cellNumber = 1;
-	let interval: number | undefined;
 </script>
 
 <section id="admin-finale">

@@ -40,6 +40,7 @@
         } else if ($currentQuestionIndex < 0) {
             return 'Pause / Reset en cours';
         } else {
+            console.log("currentQuestionIndex: ", $currentQuestionIndex);
             return $selectedTheme.questions[$currentQuestionIndex].question;
         }
     }

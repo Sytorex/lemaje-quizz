@@ -94,11 +94,28 @@
         }
     }
 
+    function previousQuestion() {
+        let index = get(currentQuestionIndex);
+
+        if (index === null) {
+            alert('Vous n\'avez pas commencé');
+            return;
+        }
+
+        if (index > 0) {
+            const newIndex = index - 1;
+            currentQuestionIndex.set(newIndex);
+        } else {
+            alert('Vous êtes arriver à la première question de ce thème');
+        }
+    }
+
     function resetTheme() {
         resetCountdown();
         score.set(0);
         currentQuestionIndex.set(null);
         selectedTheme.set(null);
+        console.log("allo ?");
     }
 
     function validateTheme() {
@@ -109,18 +126,35 @@
     function cancelTheme() {
         selectedTheme.set(null);
         resetTheme();
+        console.log("bah alors ?");
     }
 
-    function handleKeydown(event: KeyboardEvent) {
+    function handlePress(event: KeyboardEvent) {
         if (event.code === 'ArrowUp') incrementScore();
         else if (event.code === 'ArrowDown') decrementScore();
         else if (event.code === 'Space') nextQuestion();
     }
 
     onMount(() => {
+        let keydown = false;
+
+        function handleKeyup() {
+            keydown = false;
+        }
+
+        function handleKeydown(event: KeyboardEvent) {
+            if (!keydown) {
+                keydown = true;
+                handlePress(event);
+            }
+        }
+
         window.addEventListener('keydown', handleKeydown);
+        window.addEventListener('keyup', handleKeyup);
+
         return () => {
             window.removeEventListener('keydown', handleKeydown);
+            window.removeEventListener('keyup', handleKeyup);
             clearInterval(interval);
         };
     });
@@ -130,6 +164,10 @@
 <div>
     <h2>Thème choisis: {currentTheme.title}</h2>
     <div class="admin-main-container">
+        <div class="admin-navigation">
+            <button class="btn" on:click={previousQuestion}>Question précédente</button>
+            <!-- <button class="btn" on:click={nextQuestion}>Question suivante</button> -->
+        </div>
         <div class="admin-chrono">
             <button class="btn" on:click={pauseChrono}>Mettre en pause le chrono</button>
             <button class="btn" on:click={resetChrono}>Réinitialiser le chrono</button>
