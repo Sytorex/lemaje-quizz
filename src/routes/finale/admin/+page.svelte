@@ -99,7 +99,7 @@
 
     function resetCountdown() {
         pauseCountdown();
-        finaleCountdown.set(90);
+        finaleCountdown.set(10);
     }
 </script>
 

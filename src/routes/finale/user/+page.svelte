@@ -11,6 +11,13 @@
 			});
 		};
 	}
+
+	// Map french colors to english colors for blue, red, yell
+	const colorMap: Record<string, string> = {
+		"bleu": "blue",
+		"rouge": "red",
+		"jaune": "yellow"
+	};
 </script>
 
 <div class="black-box">
@@ -33,12 +40,12 @@
 </div>
 
 <div class="external-data-container">
-	<div id="finale-scores" style="display: {$finaleShowScore ? 'block' : 'none'}">
+	<div id="finale-scores" style="display: {$finaleShowScore ? 'flex' : 'none'}">
 		{#each scoreColors as color, i}
-			<div class="score {color}">
+			<div class="score bg-{colorMap[color]}">
 				<p>{$finaleScore[i]}</p>
 			</div>
 		{/each}
 	</div>
-	<div id="finale-countdown"><p>{$finaleCountdown}</p></div>
+	<div class="countdown"><p>{$finaleCountdown}</p></div>
 </div>

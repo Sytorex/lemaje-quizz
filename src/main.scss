@@ -99,7 +99,7 @@ ul {
 }
 
 h1 {
-    font-size: 4.5vw;
+    font-size: 4.5vw !important;
     padding-top: 1em;
 }
 
@@ -132,6 +132,17 @@ h1 {
     .btn {
         font-size: 2vw;
     }
+}
+
+.countdown {
+    height: 120%;
+    border-radius: 50%;
+    width: 250px;
+    background-color: #FB1212;
+    border: 10px solid #fff;
+    box-shadow: 0 0 2px 1px #000;
+    text-align: center;
+    font-size: 5rem;
 }
 
 #user-90s {
@@ -196,32 +207,39 @@ h1 {
             padding: 0.1em 0.25em;
         }
 
-        #countdown {
-            height: 120%;
-            border-radius: 50%;
-            width: 175px;
-            background-color: red;
-            text-align: center;
-        }
+        
     }
+
+    
 
     #current-question {
         text-align: center;
         width: 85vw;
         min-height: 45vh;
         font-size: 5rem;
-        padding: 0.25em 1em;
+        padding: 0.25em 0.5em;
         
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
 
         background-size: 100% 100%;
         background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
         background-image: radial-gradient(62% 100% at 10% 0%, #7BD5DCFF 1%, #FF000000 99%),radial-gradient(37% 100% at 85% 15%, #9BD8DAFF 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #697EA7FF 0%, #466AA4 100%);
-    
+
+        .number-container {
+            width: 100%;
+            #question-number {
+                font-size: 3rem;
+                padding: 0;
+                width: fit-content;
+            }
+        }
+
         p {
             transition: transform 0.35s ease, opacity 0.35s ease;
+            padding: 0em 0.5em;
 
             &.out {
                 transform: scale(0);
@@ -348,7 +366,7 @@ h1 {
                     transform: rotateX(180deg);
     
                     .cell {
-                        color: #555;
+                        color: #000;
                     }
                 }
             }
@@ -360,23 +378,24 @@ h1 {
 .external-data-container {
     position: absolute;
     left: 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
 
     #finale-scores {
-        background-image: linear-gradient(-45deg, #466AA4, #7BD5DC);
-        padding: 0.1em 0.25em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        color: black;
 
         .score {
-            &.bleu {
-                background-color: #466AA4;
-            }
-
-            &.jaune {
-                background-color: #d4dc7b;
-            }
-
-            &.rouge {
-                background-color: #FF0000;
-            }
+            font-size: 5rem;
+            width: 1.5em;
+            height: 1.5em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 
@@ -395,7 +414,7 @@ h1 {
         $color-name: nth($pair, 1);
         $color-value: nth($pair, 2);
     
-        .back.bg-#{$color-name} {
+        .bg-#{$color-name} {
             background-color: $color-value;
         }
     }

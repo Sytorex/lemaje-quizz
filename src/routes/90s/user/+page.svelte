@@ -9,7 +9,7 @@
     let animateOut = false;
     let animateIn = false;
 
-    let currentQuestion: string = 'Prêt ?';
+    let currentQuestion: string = getCurrentQuestion();
     $: if ($currentQuestionIndex !== null) {
         animateOut = true; // Lance l'animation de sortie
     }
@@ -63,16 +63,21 @@
             {/each}
         </div>
     {:else}
-        <h1>{$selectedTheme.title}</h1>
+        <h1 class="text">{$selectedTheme.title}</h1>
 
         <div class="main-container">
             <div id="current-question">
+                {#if $currentQuestionIndex !== null && $currentQuestionIndex >= 0}
+                <div class="number-container">
+                    <p id="question-number" class="text">N°{$currentQuestionIndex + 1}</p>
+                </div>    
+                {/if}
                 <p class="text {animateOut ? 'out' : ''} {animateIn ? 'in' : ''}" on:transitionend={handleAnimationEnd}>{currentQuestion}</p>
             </div>
     
             <div class="data-container">
                 <div id="score"><p>{$score}</p></div>
-                <div id="countdown"><p>{$countdown}</p></div>
+                <div class="countdown"><p>{$countdown}</p></div>
             </div>
         </div>
     {/if}

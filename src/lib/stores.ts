@@ -61,5 +61,5 @@ export const currentQuestionIndex = createLocalStorageStore<number | null>('curr
 // Epreuve : finale
 export const finaleScore = createLocalStorageStore<number[]>('finaleScore', [0, 0, 0]);
 export const finaleTable = createLocalStorageStore<FinaleCell[]>('finaleTable', initFinaleTable());
-export const finaleCountdown = createLocalStorageStore<number>('finaleCountdown', 90);
+export const finaleCountdown = createLocalStorageStore<number>('finaleCountdown', 10);
 export const finaleShowScore = createLocalStorageStore<boolean>('finaleShowScore', false);
