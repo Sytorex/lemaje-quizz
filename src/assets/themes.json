@@ -51,39 +51,153 @@
       ]
     },
     {
-      "title": "Cinéma Français",
+      "title": "Film Cultes",
       "questions": [
-        { "question": "Lorem Ipsum" }
+        { "question": "Quel est le nom de l’instructeur au début de Full Metal Jacket ?" },
+        { "question": "À bord de quelle voiture Thelma et Louise s’élancent-elles dans le Grand Canyon ?" },
+        { "question": "Pour quelle raison meurt Llewelyn Moss dans No Country for Old Men ?" },
+        { "question": "Quel film a rendu une scène de mort culte grâce à son iconographie ?" },
+        { "question": "Quel est le nom du film où Rick Deckard, interprété par Harrison Ford, chasse des réplicants dans un Los Angeles futuriste ?" },
+        { "question": "Quel acteur a gagné un Oscar à titre posthume pour son interprétation du Joker ?" },
+        { "question": "Au cours de quel film voit-on Coluche jouer un clown de cirque tandis que Louis de Funès joue un grand critique culinaire ?" },
+        { "question": "Quel acteur iconique joue Vincent Vega, personnage principal de Pulp Fiction ?" },
+        { "question": "Qui est Ca ?" },
+        { "question": "Quel était le dernier projet cinématographique de Bruce Lee avant sa mort ?" },
+        { "question": "Quel est le nom de la forteresse d’Immortan Joe dans la saga Mad Max ?" },
+        { "question": "Au cours de quel film entend-on la réplique “J’aime l’odeur du napalm au petit matin” ?" },
+        { "question": "Quelle est la règle N°1 du Fight Club ?" },
+        { "question": "Quelle est la phobie d’Indiana Jones ?" },
+        { "question": "Quel est le nom du légendaire spartiate qui commande les 300 ?" },
+        { "question": "Où se trouve la station de recherche dans The Thing ?" },
+        { "question": "Qui donne la réplique à Miles Teller dans Whiplash ?" },
+        { "question": "Quel personnage énonce la réplique 'Téléphone. Maison.'" },
+        { "question": "Quel acteur est réputé pour mourir à chacun de ses rôles au cinéma, dont l’un dans une trilogie de Peter Jackson ?" },
+        { "question": "Quel est le nom du tueur en série de Seven ?" }
       ]
     },
     {
       "title": "Séries Cultes",
       "questions": [
-        { "question": "Lorem Ipsum" }
+        { "question": "Quelle série policière de 1990 créée par David Lynch raconte l’enquête de la mort de Laura Palmers ?" },
+        { "question": "Dans le bureau de quel agent du FBI peut-on voir un poster avec marqué 'I WANT TO BELIEVE' ?" },
+        { "question": "Quel est le nom de la prison dans laquelle Michael Scofield est incarcéré ?" },
+        { "question": "Quelle série nous montre l’évolution d’un homme dans une organisation familiale mafieuse du New Jersey ?" },
+        { "question": "Qu’est-ce qui déclenche la psychopathie du tueur Dexter ?" },
+        { "question": "Selon Karadoc, que peut être une arme redondante ?" },
+        { "question": "Quel acteur joue le baron de la drogue Walter White dans Breaking Bad ?" },
+        { "question": "Quel lien de parenté unit Berlin et le Professeur dans la Casa de Papel ?" },
+        { "question": "Quel est l’antagoniste principal (à l'exception des rôdeurs) dans The Walking Dead ?" },
+        { "question": "Dans quelle série animée voit-on 3 enfants rejoindre le Bataillon d’Exploration ?" },
+        { "question": "Quelle est l’adresse de la maison des Simpson ?" },
+        { "question": "Quel est le nom de famille des 3 sœurs sorcières de la série Charmed ?" },
+        { "question": "Dans Les Experts : Miami, quel accessoire emblématique porte toujours le personnage Horatio Caine ?" },
+        { "question": "Quel est le nom de l’agence de publicité de la série Mad Men ?" },
+        { "question": "Dans House of Cards, quel est le prénom du personnage principal joué par Kevin Spacey ?" },
+        { "question": "Dans Urgences, quel acteur a interprété le rôle du Dr Doug Ross avant de devenir une star hollywoodienne ?" },
+        { "question": "Dans 24 heures chrono, quel est le nom de l'agent de la CTU joué par Kiefer Sutherland ?" },
+        { "question": "Dans quelle série découvre-t-on la théorie de la Puce et de l’Acrobate ?" },
+        { "question": "Combien de frères Malcolm a-t-il ?" },
+        { "question": "Quel est le nom de la compagnie aérienne de l’avion qui se crash dans la série Lost ?" }
       ]
     },
     {
       "title": "Jeu-Vidéo",
       "questions": [
-        { "question": "Lorem Ipsum" }
+        { "question": "Quel est le nom de la toute première console de jeu ?" },
+        { "question": "Mario est un personnage célèbre du jeu vidéo, mais quel était son premier nom ?" },
+        { "question": "Dans le jeu The Witcher 3 : Wild Hunt, quelle est la profession de Geralt de Riv ?" },
+        { "question": "Quel genre de jeu vidéo vous fait incarner un personnage qui doit combattre des boss excessivement difficiles ?" },
+        { "question": "Dans The Legend of Zelda: Majora’s Mask, combien de jours y a-t-il avant la fin du monde ?" },
+        { "question": "Dans Portal, comment s’appelle l’intelligence artificielle qui supervise les tests et qui tente de manipuler le joueur ?" },
+        { "question": "Quelle série de jeux d’horreur vous fait incarner un personnage assailli par des zombies ou des infectés ?" },
+        { "question": "Dans Skyrim, comment s'appelle l'antagoniste principal, un dragon ancien ressuscité qui menace de détruire le monde ?" },
+        { "question": "Quelle ville fictive d’un jeu d’horreur est-elle complètement plongée dans un brouillard épais ?" },
+        { "question": "Selon la majorité des interprétations, que veut dire UBI de Ubisoft ?" },
+        { "question": "Quel jeu vidéo, sorti en 2009, a révolutionné le monde des jeux de survie ?" },
+        { "question": "Dans Borderlands 2, quel est le nom du grand méchant principal que l'on doit affronter à la fin du jeu ?" },
+        { "question": "Quel jeu est considéré comme le pire jeu existant au monde ?" },
+        { "question": "Dans GTA V, quel est le nom de la ville fictive qui remplace Los Angeles et où l’action principale du jeu se déroule ?" },
+        { "question": "Dans quelle série de jeux vidéo incarne-t-on un personnage qui doit survivre à divers dangers dans un futur apocalyptique après une guerre nucléaire mondiale ?" },
+        { "question": "Quelle société est connue pour avoir enterré énormément de cartouches de jeu dans le désert ?" },
+        { "question": "Dans quel jeu vidéo explore-t-on Rapture, une ville géante plongée profondément dans l’océan ?" },
+        { "question": "Combien d'épées Geralt possède afin d'exécuter ses ennemis ?" },
+        { "question": "Quel jeu, disponible sur Playstation 2, vous permet de conduire des véhicules tunés dans des courses de nuit à Beverly Hills ?" },
+        { "question": "Quel est le nom du personnage antique que l’on incarne dans Assassin’s Creed 2 ?" }
       ]
     },
     {
       "title": "Astronomie",
       "questions": [
-        { "question": "Lorem Ipsum" }
+        {"question": "Quelle est la principale source d'énergie du Soleil, qui permet à celui-ci de briller et de produire de la chaleur ?"},
+        {"question": "Comment s'appelle la nuit du 14 août au cours de laquelle on peut observer une pluie d’étoiles filantes ?"},
+        {"question": "Quelle est la planète qui possède des vents supersoniques et des tempêtes de grande ampleur, notamment la tempête appelée 'La Grande Tache Rouge' ?"},
+        {"question": "Quel phénomène cosmique est responsable de l'effondrement d'une étoile massive, créant un objet avec une gravité tellement intense que rien, pas même la lumière, ne peut en échapper ?"},
+        {"question": "Quel est le nom de l'énorme nuage de gaz et de poussières situé dans la constellation d'Orion, qui est un lieu de naissance pour de nouvelles étoiles ?"},
+        {"question": "Quel est le nom du premier humain à avoir marché sur la Lune lors de la mission Apollo 11 en 1969 ?"},
+        {"question": "Quel est le nom du processus par lequel les étoiles de grande masse finissent leur vie en explosant en une gigantesque explosion ?"},
+        {"question": "Comment s'appelle l'événement astronomique où la Lune se trouve entre la Terre et le Soleil, cachant ainsi complètement ou partiellement le Soleil ?"},
+        {"question": "Quel est le nom de l'étoile la plus proche de la Terre après le Soleil ?"},
+        {"question": "Quelle est la principale différence entre un astéroïde et une comète ?"},
+        {"question": "Quelle planète du système solaire est surnommée 'la planète rouge' en raison de sa couleur distincte ?"},
+        {"question": "Quel est le nom de la sonde qui a été lancée en 1977 pour explorer les confins du système solaire et qui continue sa trajectoire aujourd'hui ?"},
+        {"question": "Quelle est la période exacte de la révolution de la Terre autour du Soleil ?"},
+        {"question": "Quel est le nom du télescope spatial lancé en 1990, qui a révolutionné l'astronomie avec des images haute résolution de l'univers, notamment des nébuleuses et des exoplanètes ?"},
+        {"question": "Quel phénomène astronomique est responsable de l'éclat de la Lune lorsqu'elle est visible depuis la Terre, à savoir sa lumière blanche et réfléchie ?"},
+        {"question": "Quel est le nom du phénomène par lequel des particules solaires interagissent avec le champ magnétique terrestre pour produire des lumières colorées visibles dans les pôles ?"},
+        {"question": "En quelle année la NASA a décrété que Pluton n’était plus une planète ?"},
+        {"question": "Comment s'appelle la théorie qui explique l'origine de l'univers, en se basant sur l'explosion initiale de matière et d'énergie ?"},
+        {"question": "Quelle est la plus grande lune de Jupiter, connue pour ses volcans actifs et sa surface couverte de glace ?"},
+        {"question": "Quelle est la planète la plus proche du Soleil ?"}
       ]
     },
     {
       "title": "Musique",
       "questions": [
-        { "question": "Lorem Ipsum" }
+        {"question": "Dans quel courant musical des années 1970-1980 trouve-t-on des artistes comme Kraftwerk, Depeche Mode et Jean-Michel Jarre, connus pour leur utilisation de synthétiseurs ?"},
+        {"question": "Quel groupe britannique, formé en 1970 et mené par Freddie Mercury, est connu pour des hymnes comme Bohemian Rhapsody et We Will Rock You ?"},
+        {"question": "Dans quelle ville des États-Unis est né le jazz, style musical influencé par les musiques africaines et européennes ?"},
+        {"question": "Quel artiste est souvent considéré comme le 'Roi de la Pop' et est connu pour des albums tels que Thriller et Bad ?"},
+        {"question": "Quel groupe de rock britannique a écrit l’album Dark Side of the Moon, un des albums les plus vendus de tous les temps ?"},
+        {"question": "Quel est le nom du célèbre festival de musique américain, tenu pour la première fois en 1969 et symbole du mouvement hippie ?"},
+        {"question": "Quel chanteur britannique est connu pour ses chansons emblématiques Rocket Man, Your Song, et ses lunettes excentriques ?"},
+        {"question": "Quelle musique, interprétée par Kate Bush, a eu un regain de popularité grâce à son passage dans Stranger Things ?"},
+        {"question": "Quel groupe de rock britannique, formé dans les années 1960, est souvent surnommé 'les Fab Four' ?"},
+        {"question": "Quel DJ et producteur français a popularisé la musique électronique avec des hits comme Titanium et When Love Takes Over ?"},
+        {"question": "Quel célèbre compositeur baroque allemand est l’auteur des Quatre Saisons, un ensemble de concertos pour violon ?"},
+        {"question": "Quel groupe américain est connu pour ses performances théâtrales et ses tubes rock comme Dream On et Walk This Way ?"},
+        {"question": "Quelle chanson, interprétée par Whitney Houston, est devenue l'un des plus grands succès de la bande originale du film Bodyguard ?"},
+        {"question": "Quel mouvement musical des années 1970 est caractérisé par son tempo rapide, ses guitares distordues, et des groupes comme les Sex Pistols et les Ramones ?"},
+        {"question": "Dans quel pays est né le genre musical du flamenco, caractérisé par des guitares, des chants et des danses rythmiques ?"},
+        {"question": "Quel compositeur italien est célèbre pour ses musiques de films, notamment celles des westerns de Sergio Leone comme Le Bon, la Brute et le Truand ?"},
+        {"question": "Quelle chanson des Bee Gees est emblématique du mouvement disco et figure dans la bande originale du film Saturday Night Fever ?"},
+        {"question": "Quel groupe de rock alternatif américain, formé dans les années 1990, a popularisé des morceaux comme Californication et Under the Bridge ?"},
+        {"question": "Dans quel pays est né le genre musical du reggae, popularisé par des artistes comme Bob Marley ?"},
+        {"question": "Quel célèbre compositeur américain a créé les bandes originales de films comme Star Wars, Indiana Jones, et Harry Potter ?"}
       ]
     },
     {
       "title": "Voyage",
       "questions": [
-        { "question": "Lorem Ipsum" }
+        {"question": "Quel est le nom de la route mythique des États-Unis qui traverse le pays d'est en ouest, aussi connue sous le nom de 'Mother Road' ?"},
+        {"question": "Au bord de quelle mer est située la station balnéaire de Yalta ?"},
+        {"question": "Quelle région française est renommée pour ses châteaux historiques, ses vignobles et son fleuve, et attire de nombreux visiteurs chaque année ?"},
+        {"question": "Quel pays est connu pour sa Grande Barrière de Corail, la plus grande structure vivante de la Terre, visible depuis l’espace ?"},
+        {"question": "Quelle ville japonaise est célèbre pour ses temples historiques, son château et sa culture traditionnelle, et est souvent associée au geisha ?"},
+        {"question": "Dans quel pays peut-on visiter le parc national Torres del Paine, célèbre pour ses montagnes, ses glaciers et sa biodiversité unique ?"},
+        {"question": "Quelle ville est connue pour son Colisée antique, sa fontaine de Trevi et sa culture romaine, et est la capitale de l'Italie ?"},
+        {"question": "Dans quel pays ont été tournés les films de la trilogie du Seigneur des Anneaux ?"},
+        {"question": "Quel pays abrite la ville de Marrakech, célèbre pour ses souks colorés et ses riads traditionnels ?"},
+        {"question": "Quelle émission, diffusée entre 1998 et 2012, présentée par Nicolas Hulot, montrait des paysages du monde entier ?"},
+        {"question": "Dans quel état des Etats-Unis peut-on admirer le Grand Canyon ?"},
+        {"question": "Quelle ville européenne est connue pour ses canaux, ses musées et son architecture médiévale, et est surnommée 'la Venise du Nord' ?"},
+        {"question": "Quel archipel des États-Unis est célèbre pour ses volcans actifs, sa faune unique, et ses plages de sable noir ?"},
+        {"question": "Quel pays d’Amérique du Sud est réputé pour ses montagnes andines, le lac Titicaca, et la cité inca de Machu Picchu, située dans ses Andes ?"},
+        {"question": "Quelle région de France, située au sud-est du pays, est célèbre pour ses champs de lavande, ses marchés provençaux et ses villages pittoresques ?"},
+        {"question": "Quel archipel volcanique situé dans l'océan Atlantique est une destination populaire pour les amateurs de randonnée et de paysages sauvages ?"},
+        {"question": "Dans quelle ville se trouve la célèbre statue du Christ Rédempteur, qui surplombe une baie impressionnante ?"},
+        {"question": "Quelle cité antique, considérée comme l’une des 7 merveilles du monde, a été filmée au cours de l’un des films Indiana Jones ?"},
+        {"question": "Quelle île est la plus grande des Caraïbes et est célèbre pour ses plages paradisiaques, son histoire coloniale et son cigare emblématique ?"},
+        {"question": "Quelle île méditerranéenne, ancienne colonie grecque, est un centre touristique majeur, connue pour ses plages et ses vestiges antiques ?"}
       ]
     },
     {
@@ -114,43 +228,180 @@
     {
       "title": "Sports",
       "questions": [
-        { "question": "Lorem Ipsum" }
+        { "question": "Quelle équipe de rugby a remporté la Coupe du Monde en 2015, battant les All Blacks en finale ?" },
+        { "question": "Quel athlète jamaïcain détient les records du monde du 100 mètres et du 200 mètres, établis lors des Championnats du monde de 2009 à Berlin ?" },
+        { "question": "Quel joueur de tennis serbe a remporté 23 titres du Grand Chelem, un record masculin, surpassant Roger Federer et Rafael Nadal ?" },
+        { "question": "Quel sport de glisse sur neige, pratiqué principalement dans des stations de ski, consiste à descendre une pente en effectuant des virages et des figures acrobatiques, et peut se pratiquer en compétition ou de façon récréative ?" },
+        { "question": "Quel athlète américain détient le record du nombre de médailles olympiques, avec un total de 28, dont 23 en or ?" },
+        { "question": "Quel joueur de tennis suisse, connu pour son élégance sur le court, a remporté 20 titres du Grand Chelem, dont un record de 8 titres à Wimbledon ?" },
+        { "question": "Quel ancien joueur de basketball américain a remporté six titres de champion NBA avec les Chicago Bulls et est considéré comme l'un des meilleurs joueurs de tous les temps ?" },
+        { "question": "Quel pays a organisé les Jeux Olympiques d'hiver en 2010, marqués par les performances exceptionnelles du skieur canadien Alexandre Bilodeau ?" },
+        { "question": "Dans quel sport l’Espagnol Rafael Nadal est-il considéré comme un maître, notamment sur les courts de Roland-Garros où il a remporté 14 titres ?" },
+        { "question": "Quel sport, pratiqué lors des Jeux Olympiques depuis 1896, consiste en une course de 42,195 km et est souvent considéré comme l'une des épreuves les plus difficiles du monde ?" },
+        { "question": "Quel joueur de football argentin est considéré comme l'un des meilleurs joueurs de l'histoire de la Ligue espagnole, ayant remporté 10 titres de La Liga avec le FC Barcelone avant de rejoindre le PSG ?" },
+        { "question": "Dans quel sport, qui fait partie des Jeux Olympiques depuis 1900, deux équipes s'affrontent en envoyant une balle dans un but situé à chaque extrémité du terrain, en utilisant un bâton ?" },
+        { "question": "Quel golfeur américain a remporté 15 titres majeurs, dont 5 Masters, et est considéré comme l’un des plus grands golfeurs de l’histoire ?" },
+        { "question": "Quel pays a remporté la Coupe du Monde de Football 2018, battant la Croatie en finale ?" },
+        { "question": "Quelle équipe de football a remporté la Ligue des champions de l'UEFA en 2005 après avoir effectué une remontée spectaculaire en finale contre le Milan AC, en étant menée 3-0 à la mi-temps ?" },
+        { "question": "Quel pays a organisé les premiers Jeux olympiques modernes en 1896, marquant le retour de l'athlétisme comme événement majeur ?" },
+        { "question": "Quel pilote de Formule 1 a remporté le championnat du monde à sept reprises, égalant le record de Michael Schumacher ?" },
+        { "question": "Quel boxeur américain, surnommé 'The Greatest', a remporté trois titres mondiaux de boxe dans différentes catégories de poids et est connu pour ses célèbres combats contre Joe Frazier et George Foreman ?" },
+        { "question": "Quel sport extrême consiste à sauter d'une hauteur en étant attaché à une corde élastique, le tout depuis un pont, une grue ou une plateforme ?" },
+        { "question": "Quel basketteur américain a remporté 5 titres NBA avec les Los Angeles Lakers et a été surnommé 'The Black Mamba' pour sa ténacité et sa compétitivité sur le terrain ?" }
       ]
     },
     {
       "title": "Littérature",
       "questions": [
-        { "question": "Lorem Ipsum" }
+        { "question": "Quel auteur britannique est célèbre pour ses pièces de théâtre comme 'Hamlet' et 'Macbeth' ?" },
+        { "question": "Quel écrivain français est l'auteur de 'À la recherche du temps perdu', une œuvre monumentale en sept tomes qui explore les thèmes de la mémoire et du temps ?" },
+        { "question": "Quel auteur belge a créé le personnage de Tintin, le célèbre reporter dans des aventures à travers le monde ?" },
+        { "question": "Quel roman de Mary Shelley raconte l’histoire d’un scientifique qui crée une créature monstrueuse et en subit les conséquences ?" },
+        { "question": "Quel écrivain américain, considéré comme l'un des plus grands du XXe siècle, a écrit 'L'Innocent' et 'L'Attrape-cœurs', explorant les thèmes de l’adolescence et de la rébellion ?" },
+        { "question": "Quel roman de Robert Louis Stevenson raconte l’histoire d’un docteur en proie à une double personnalité, l’une gentille et l’autre maléfique ?" },
+        { "question": "Quel écrivain français est l’auteur de 'Le Petit Prince', une œuvre qui raconte l’histoire d’un aviateur et d’un petit prince venu d'une autre planète ?" },
+        { "question": "Quel roman de Charles Dickens raconte l’histoire d’un orphelin qui tente de s’échapper d’une vie difficile dans l’Angleterre victorienne et se retrouve mêlé à une bande de voleurs ?" },
+        { "question": "Quel roman de Margaret Mitchell raconte l’histoire de Scarlett O'Hara et de sa lutte pour survivre et préserver sa plantation pendant et après la guerre de Sécession ?" },
+        { "question": "Quel écrivain britannique est l’auteur du célèbre roman '1984', une dystopie qui critique les régimes totalitaires et la surveillance de masse ?" },
+        { "question": "Quel écrivain écossais est l'auteur du roman 'L'Île au trésor', une aventure de pirates et de chasse au trésor ?" },
+        { "question": "Quel roman de F. Scott Fitzgerald décrit la vie du mystérieux Jay Gatsby et de son amour pour Daisy Buchanan dans les années 1920 ?" },
+        { "question": "Quel écrivain américain est l’auteur du roman 'Moby-Dick', une œuvre phare de la littérature américaine qui raconte la quête obsessionnelle du capitaine Ahab ?" },
+        { "question": "Quel roman de Jane Austen raconte l’histoire de l’héroïne Elizabeth Bennet et de ses relations avec le mystérieux M. Darcy ?" },
+        { "question": "Quel écrivain français est l’auteur de 'Les Misérables' et 'Notre-Dame de Paris', deux classiques de la littérature française ?" },
+        { "question": "Quel célèbre roman, décrivant une aventure surréaliste et fantastique, a été écrit par Lewis Caroll ?" },
+        { "question": "Quel roman de George R.R. Martin est le premier tome d’une saga épique où les familles nobles luttent pour le pouvoir dans un monde médiéval fantastique ?" },
+        { "question": "Quel écrivain français du XVIIIe siècle a écrit 'Candide', un conte philosophique satirique qui critique la société et la philosophie optimiste de son époque ?" },
+        { "question": "Quel roman de J.R.R. Tolkien raconte les aventures de Bilbo Baggins et de la quête pour récupérer le trésor du dragon Smaug ?" },
+        { "question": "Quel écrivain britannique a créé le personnage de Sherlock Holmes, le détective le plus célèbre de la littérature ?" }
       ]
     },
     {
-      "title": "Sciences et Découvertes",
+      "title": "Sciences",
       "questions": [
-        { "question": "Lorem Ipsum" }
+        { "question": "Quel scientifique autrichien est connu pour son expérience théorique mettant en scène un chat dans une boîte ?", "answer": "Erwan Schrödinger" },
+        { "question": "Quel est le nom de l’élément chimique dont le symbole est Au ?", "answer": "L’Or" },
+        { "question": "En 1666, quel physicien a énoncé la loi universelle de la gravitation ?", "answer": "Isaac Newton" },
+        { "question": "Quel phénomène naturel est causé par la réfraction, la réflexion et la dispersion de la lumière dans les gouttes d'eau ?", "answer": "L’arc en ciel" },
+        { "question": "Quel est le principal gaz constituant l’atmosphère de la planète Mars ?", "answer": "Le Dioxyde de carbone (CO2)" },
+        { "question": "Quel scientifique italien a été condamné pour hérésie en 1633 pour avoir soutenu la théorie de l’héliocentrisme ?", "answer": "Galilée" },
+        { "question": "Quelle molécule, composée d’un groupe phosphate, d’un sucre et d’une base azotée, constitue la base de l’ADN ?", "answer": "Le nucléotide" },
+        { "question": "Quel est le nom de la théorie unifiant l’électricité et le magnétisme en une seule force ?", "answer": "L'électromagnétisme" },
+        { "question": "Quelle est la principale hormone régulant le taux de sucre dans le sang, produite par le pancréas ?", "answer": "L’insuline" },
+        { "question": "Quelle est la vitesse de la lumière dans le vide, exprimée en kilomètres par seconde ?", "answer": "environ 300 000 km/s" },
+        { "question": "Quel type de roche se forme à partir du refroidissement du magma ou de la lave ?", "answer": "Les roches ignées (ou magmatique)" },
+        { "question": "Quel est le nom donné au plus petit particule d’un élément chimique qui conserve ses propriétés chimiques ?", "answer": "L’atome" },
+        { "question": "Quel scientifique a inventé le vaccin contre la rage en 1885 ?", "answer": "Louis Pasteur" },
+        { "question": "Quelle couche de l’atmosphère terrestre contient la plus grande concentration d’ozone et protège la planète des rayons ultraviolets ?", "answer": "La stratosphère" },
+        { "question": "Quelle maladie a été éradiquée en 1980 grâce à une campagne mondiale de vaccination ?", "answer": "La variole" },
+        { "question": "Quelle unité mesure la température dans le système international et est utilisée en sciences physiques ?", "answer": "Le Kelvin" },
+        { "question": "Quel est le nom de la couche externe du Soleil, visible lors d’une éclipse totale ?", "answer": "La couronne solaire" },
+        { "question": "Quel astronome polonais est connu pour avoir popularisé le modèle héliocentrique de l’Univers ?", "answer": "Nicolas Copernic" },
+        { "question": "Quel métal liquide à température ambiante est utilisé dans les thermomètres traditionnels ?", "answer": "Le Mercure" },
+        { "question": "Quelle découverte majeure a été réalisée par Rosalind Franklin grâce à la diffraction des rayons X ?", "answer": "La structure en double hélice de l’ADN" },
+        { "question": "Quelle loi physique stipule que la pression d’un gaz diminue à mesure que son volume augmente, si la température reste constante ?", "answer": "La loi de Boyle-Mariotte" },
+        { "question": "Qui est considéré comme le père de la médecine moderne dans la Grèce antique ?", "answer": "Hippocrate" }
       ]
     },
     {
       "title": "Mythologie",
       "questions": [
-        { "question": "Lorem Ipsum" }
+        { "question": "Quel scientifique autrichien est connu pour son expérience théorique mettant en scène un chat dans une boîte ?" },
+        { "question": "Quel est le nom de l’élément chimique dont le symbole est Au ?" },
+        { "question": "En 1666, quel physicien a énoncé la loi universelle de la gravitation ?" },
+        { "question": "Quel phénomène naturel est causé par la réfraction, la réflexion et la dispersion de la lumière dans les gouttes d'eau ?" },
+        { "question": "Quel est le principal gaz constituant l’atmosphère de la planète Mars ?" },
+        { "question": "Quel scientifique italien a été condamné pour hérésie en 1633 pour avoir soutenu la théorie de l’héliocentrisme ?" },
+        { "question": "Quelle molécule, composée d’un groupe phosphate, d’un sucre et d’une base azotée, constitue la base de l’ADN ?" },
+        { "question": "Quel est le nom de la théorie unifiant l’électricité et le magnétisme en une seule force ?" },
+        { "question": "Quelle est la principale hormone régulant le taux de sucre dans le sang, produite par le pancréas ?" },
+        { "question": "Quelle est la vitesse de la lumière dans le vide, exprimée en kilomètres par seconde ?" },
+        { "question": "Quel type de roche se forme à partir du refroidissement du magma ou de la lave ?" },
+        { "question": "Quel est le nom donné au plus petit particule d’un élément chimique qui conserve ses propriétés chimiques ?" },
+        { "question": "Quel scientifique a inventé le vaccin contre la rage en 1885 ?" },
+        { "question": "Quelle couche de l’atmosphère terrestre contient la plus grande concentration d’ozone et protège la planète des rayons ultraviolets ?" },
+        { "question": "Quelle maladie a été éradiquée en 1980 grâce à une campagne mondiale de vaccination ?" },
+        { "question": "Quelle unité mesure la température dans le système international et est utilisée en sciences physiques ?" },
+        { "question": "Quel est le nom de la couche externe du Soleil, visible lors d’une éclipse totale ?" },
+        { "question": "Quel astronome polonais est connu pour avoir popularisé le modèle héliocentrique de l’Univers ?" },
+        { "question": "Quel métal liquide à température ambiante est utilisé dans les thermomètres traditionnels ?" },
+        { "question": "Quelle découverte majeure a été réalisée par Rosalind Franklin grâce à la diffraction des rayons X ?" },
+        { "question": "Quelle loi physique stipule que la pression d’un gaz diminue à mesure que son volume augmente, si la température reste constante ?" },
+        { "question": "Qui est considéré comme le père de la médecine moderne dans la Grèce antique ?" }
       ]
     },
     {
       "title": "Télévision",
       "questions": [
-        { "question": "Lorem Ipsum" }
+        { "question": "Quelle émission de variétés à succès des années 80 était présentée par Jacques Martin et diffusée le dimanche après-midi ?" },
+        { "question": "Quel duo mythique a animé l'émission culte Intervilles avec ses célèbres vachettes ?" },
+        { "question": "Quel programme historique de TF1, diffusé chaque été, présente des villages de France en compétition ?" },
+        { "question": "Quel animateur a lancé Le Juste Prix, l'émission culte de TF1 où les candidats doivent estimer le prix des objets ?" },
+        { "question": "Quel présentateur préside chaque édition de Miss France ?" },
+        { "question": "Dans l’émission Le Maillon Faible, quel est le nom de l’animatrice qui mettait les candidats sous pression avec ses fameux \"vous êtes le maillon faible\" ?" },
+        { "question": "Dans Les 5 Anneaux d'Or, quel animateur fait appel à des équipes de candidats pour répondre à des énigmes et relever des défis ?" },
+        { "question": "Quel émission de télévision satirique française était présentée par des marionnettes ?" },
+        { "question": "Quel programme scientifique pour la jeunesse était diffusé sur France 3 ?" },
+        { "question": "Quel personnage de jeu vidéo présentait les programmes jeunesse sur France 2 de 1996 à 2002 ?" },
+        { "question": "Dans Le Grand Journal, quel animateur a succédé à Michel Denisot pour présenter l’émission de Canal+ ?" },
+        { "question": "Quelle émission a été l’une des premières à diffuser une téléréalité en 2001 ?" },
+        { "question": "En 1984, quelle série américaine a fait son retour à la télévision avec un épisode spécial après une interruption de plusieurs années et a battu des records d’audience ?" },
+        { "question": "Quel animateur était connu pour emmener son chien sur les plateaux pendant les émissions ?" },
+        { "question": "En 1992, quel programme anglais a été lancé et est devenu un des plus grands succès de la télévision mondiale avec son concept de quiz télévisé ?" },
+        { "question": "Quel évènement du 2 juin 1953 a été retransmis à la télévision ?" },
+        { "question": "Quel série de science-fiction britannique a fait sa première diffusion en 1969 ?" },
+        { "question": "En quelle année a été lancée la chaîne Arte ?" },
+        { "question": "Quelle émission Vincent Lagaf’ a t-il présenté en compagnie d’un extraterrestre ?" },
+        { "question": "Quel présentateur est célèbre concernant une claque faite sur un personnage de l’émission ?" }
       ]
     },
     {
       "title": "Mode",
       "questions": [
-        { "question": "Lorem Ipsum" }
+        { "question": "Quel couturier espagnol, célèbre pour ses créations minimalistes, a influencé de nombreux designers modernes ?" },
+        { "question": "Quelle marque de sport a popularisé le concept de \"Air\" dans ses baskets avec le lancement de la ligne Air Max en 1987 ?" },
+        { "question": "Quel vêtement traditionnel japonais a influencé de nombreuses collections de mode occidentale ?" },
+        { "question": "Quel grand couturier français a lancé la collection révolutionnaire \"New Look\" en 1947 ?" },
+        { "question": "Quel styliste français est célèbre pour ses créations en plastique moulé et ses robes futuristes des années 1960 ?" },
+        { "question": "Quel créateur français est célèbre pour avoir inventé la petite robe noire dans les années 1920 ?" },
+        { "question": "Quel célèbre créateur américain a popularisé les sous-vêtements griffés avec son logo visible dans les années 1990 ?" },
+        { "question": "Quelle maison de couture utilise un emblème d’abeille et a été relancée par Alessandro Michele ces dernières années ?" },
+        { "question": "Quelle maison française a conçu les costumes pour le film Le Grand Gatsby en 2013, incarnant le style des années 1920 ?" },
+        { "question": "Quel est le terme utilisé pour désigner un défilé de mode à Paris, présentant des pièces uniques faites à la main ?" },
+        { "question": "Quel couturier français a été nommé directeur artistique de la maison Chanel après la mort de Gabrielle Chanel ?" },
+        { "question": "Quel accessoire de luxe créé par Louis Cartier en 1904 a été le premier modèle de montre-bracelet pour homme ?" },
+        { "question": "Quel accessoire de mode est souvent associé à la marque Hermès et est un symbole de luxe intemporel ?" },
+        { "question": "Quelle marque française est connue pour son crocodile iconique sur les polos ?" },
+        { "question": "Quel est le nom du parfum iconique lancé par Chanel en 1921 et devient un symbole intemporel de féminité ?" },
+        { "question": "Quelle marque française de luxe est connue pour son motif de toile monogrammée et ses articles de maroquinerie ?" },
+        { "question": "Quel créateur de mode français a popularisé le look marin avec des rayures dans ses collections ?" },
+        { "question": "Quel mannequin allemand est surnommé \"La Panthère\" pour son élégance et sa démarche féline ?" },
+        { "question": "Quelle maison de luxe parisienne est célèbre pour ses chaussures à talons hauts et son monogramme \"YSL\" ?" },
+        { "question": "Quelle marque de luxe française utilise une étoile comme symbole récurrent dans ses créations ?" }
       ]
     },
     {
       "title": "BD & Comics",
       "questions": [
-        { "question": "Lorem Ipsum" }
+        { "question": "Dans la bande dessinée \"Garfield\", quel est le nom du propriétaire du chat Garfield ?" },
+        { "question": "Qui est le créateur du personnage Balthazar Picsou ?" },
+        { "question": "Dans la série de BD \"Lucky Luke\", quel groupe de criminels est constamment poursuivi par le célèbre cowboy ?" },
+        { "question": "Dans l'univers de Marvel, quel personnage est un détective privé, souvent impliqué dans des affaires surnaturelles, avec une force surhumaine et une régénération rapide ?" },
+        { "question": "Dans la bande dessinée \"Astérix\", quel personnage est un chef du village gaulois ?" },
+        { "question": "Dans les comics Marvel, quel super-héros a un alter ego appelé Peter Parker ?" },
+        { "question": "Quel super-héros de DC Comics porte une cape et une combinaison bleue, et possède des pouvoirs d'hyper-vitesse ?" },
+        { "question": "Dans quel univers de BD belge a été créée la série \"Thorgal\", mettant en scène un héros viking ?" },
+        { "question": "Quelle série de bandes dessinées de science-fiction met en scène des personnages comme Valérian et Laureline ?" },
+        { "question": "Qui est le créateur de l'un des plus célèbres super-héros Marvel, Spider-Man ?" },
+        { "question": "Dans quel univers de comics DC, des personnages comme Superman et Batman coexistent ?" },
+        { "question": "Quel comic crée le personnage de Wolverine ?" },
+        { "question": "Dans la BD \"Tintin\", quel est le nom du chien qui accompagne Tintin dans ses aventures ?" },
+        { "question": "Quel super-héros de DC Comics est un avocat aveugle de jour, et un justicier masqué de nuit ?" },
+        { "question": "Quel super-héros de Marvel est connu pour son bouclier en vibranium ?" },
+        { "question": "Quel est le nom du super-héros qui porte le nom de \"L'homme chauve-souris\" ?" },
+        { "question": "Quel comics de DC se concentre sur un groupe de héros adolescents ?" },
+        { "question": "Dans les comics, quel super-héros porte un costume bleu et rouge et peut s'accrocher aux murs grâce à ses pouvoirs ?" },
+        { "question": "Dans quel comics le personnage de \"Le Joker\" a-t-il été créé ?" },
+        { "question": "Qui est le créateur de la bande dessinée \"Les Schtroumpfs\" ?" }
       ]
     }
   ]
