@@ -278,33 +278,6 @@
     {
       "title": "Sciences",
       "questions": [
-        { "question": "Quel scientifique autrichien est connu pour son expérience théorique mettant en scène un chat dans une boîte ?", "answer": "Erwan Schrödinger" },
-        { "question": "Quel est le nom de l’élément chimique dont le symbole est Au ?", "answer": "L’Or" },
-        { "question": "En 1666, quel physicien a énoncé la loi universelle de la gravitation ?", "answer": "Isaac Newton" },
-        { "question": "Quel phénomène naturel est causé par la réfraction, la réflexion et la dispersion de la lumière dans les gouttes d'eau ?", "answer": "L’arc en ciel" },
-        { "question": "Quel est le principal gaz constituant l’atmosphère de la planète Mars ?", "answer": "Le Dioxyde de carbone (CO2)" },
-        { "question": "Quel scientifique italien a été condamné pour hérésie en 1633 pour avoir soutenu la théorie de l’héliocentrisme ?", "answer": "Galilée" },
-        { "question": "Quelle molécule, composée d’un groupe phosphate, d’un sucre et d’une base azotée, constitue la base de l’ADN ?", "answer": "Le nucléotide" },
-        { "question": "Quel est le nom de la théorie unifiant l’électricité et le magnétisme en une seule force ?", "answer": "L'électromagnétisme" },
-        { "question": "Quelle est la principale hormone régulant le taux de sucre dans le sang, produite par le pancréas ?", "answer": "L’insuline" },
-        { "question": "Quelle est la vitesse de la lumière dans le vide, exprimée en kilomètres par seconde ?", "answer": "environ 300 000 km/s" },
-        { "question": "Quel type de roche se forme à partir du refroidissement du magma ou de la lave ?", "answer": "Les roches ignées (ou magmatique)" },
-        { "question": "Quel est le nom donné au plus petit particule d’un élément chimique qui conserve ses propriétés chimiques ?", "answer": "L’atome" },
-        { "question": "Quel scientifique a inventé le vaccin contre la rage en 1885 ?", "answer": "Louis Pasteur" },
-        { "question": "Quelle couche de l’atmosphère terrestre contient la plus grande concentration d’ozone et protège la planète des rayons ultraviolets ?", "answer": "La stratosphère" },
-        { "question": "Quelle maladie a été éradiquée en 1980 grâce à une campagne mondiale de vaccination ?", "answer": "La variole" },
-        { "question": "Quelle unité mesure la température dans le système international et est utilisée en sciences physiques ?", "answer": "Le Kelvin" },
-        { "question": "Quel est le nom de la couche externe du Soleil, visible lors d’une éclipse totale ?", "answer": "La couronne solaire" },
-        { "question": "Quel astronome polonais est connu pour avoir popularisé le modèle héliocentrique de l’Univers ?", "answer": "Nicolas Copernic" },
-        { "question": "Quel métal liquide à température ambiante est utilisé dans les thermomètres traditionnels ?", "answer": "Le Mercure" },
-        { "question": "Quelle découverte majeure a été réalisée par Rosalind Franklin grâce à la diffraction des rayons X ?", "answer": "La structure en double hélice de l’ADN" },
-        { "question": "Quelle loi physique stipule que la pression d’un gaz diminue à mesure que son volume augmente, si la température reste constante ?", "answer": "La loi de Boyle-Mariotte" },
-        { "question": "Qui est considéré comme le père de la médecine moderne dans la Grèce antique ?", "answer": "Hippocrate" }
-      ]
-    },
-    {
-      "title": "Mythologie",
-      "questions": [
         { "question": "Quel scientifique autrichien est connu pour son expérience théorique mettant en scène un chat dans une boîte ?" },
         { "question": "Quel est le nom de l’élément chimique dont le symbole est Au ?" },
         { "question": "En 1666, quel physicien a énoncé la loi universelle de la gravitation ?" },
@@ -327,6 +300,31 @@
         { "question": "Quelle découverte majeure a été réalisée par Rosalind Franklin grâce à la diffraction des rayons X ?" },
         { "question": "Quelle loi physique stipule que la pression d’un gaz diminue à mesure que son volume augmente, si la température reste constante ?" },
         { "question": "Qui est considéré comme le père de la médecine moderne dans la Grèce antique ?" }
+      ]
+    },
+    {
+      "title": "Mythologie",
+      "questions": [
+        { "question": "Quel est le nom du fleuve mythologique grec que les morts traversaient pour rejoindre le royaume d'Hadès ?" },
+        { "question": "Quel héros grec a navigué avec les Argonautes pour récupérer la Toison d'Or ?" },
+        { "question": "Dans la mythologie nordique, comment se nomme l’arbre du monde qui relie les neuf royaumes ?" },
+        { "question": "Quel héros grec a combattu et tué l’hydre de Lerne, un monstre à neuf têtes ?" },
+        { "question": "Quel monstre mythologique grec a une tête de lion, un corps de chèvre et une queue de serpent ?" },
+        { "question": "Dans la mythologie romaine, qui est la déesse de l’amour et de la beauté ?" },
+        { "question": "Quel monstre mythologique grec a été enfermé dans une jarre par Zeus à cause de son pouvoir sur les esprits ?" },
+        { "question": "Dans la mythologie romaine, qui est le dieu de la porte et des commencements, souvent représenté avec deux visages ?" },
+        { "question": "Dans la mythologie aztèque, quel dieu serpent à plumes est associé au vent et à la sagesse ?" },
+        { "question": "Dans la mythologie romaine, quel dieu est associé au commerce, à l’argent et à l’artisanat ?" },
+        { "question": "Dans la mythologie nordique, quel dieu est associé au tonnerre et porte un marteau nommé Mjölnir ?" },
+        { "question": "Quel titan grec a volé le feu aux dieux pour le donner aux hommes ?" },
+        { "question": "Dans la mythologie égyptienne, quel dieu est le gardien des morts et est représenté avec une tête de chacal ?" },
+        { "question": "Dans la mythologie hindoue, quel dieu à tête d’éléphant est vénéré comme le destructeur des obstacles ?" },
+        { "question": "Dans la mythologie grecque, quel héros est condamné à pousser un rocher de manière éternelle, sans jamais l’atteindre ?" },
+        { "question": "Dans la mythologie grecque, quel héros célèbre a tué le Minotaure ?" },
+        { "question": "Quel est le nom de la déesse romaine de la terre et de la fertilité, équivalente à Déméter en Grèce ?" },
+        { "question": "Dans la mythologie grecque, quel titan est condamné à porter le ciel sur ses épaules ?" },
+        { "question": "Quel monstre mythologique a des serpents à la place des cheveux et pétrifie ceux qui croisent son regard ?" },
+        { "question": "Quel héros grec, fils d’Achille, a tué Hector durant la guerre de Troie ?" }
       ]
     },
     {
@@ -386,22 +384,22 @@
         { "question": "Qui est le créateur du personnage Balthazar Picsou ?" },
         { "question": "Dans la série de BD \"Lucky Luke\", quel groupe de criminels est constamment poursuivi par le célèbre cowboy ?" },
         { "question": "Dans l'univers de Marvel, quel personnage est un détective privé, souvent impliqué dans des affaires surnaturelles, avec une force surhumaine et une régénération rapide ?" },
-        { "question": "Dans la bande dessinée \"Astérix\", quel personnage est un chef du village gaulois ?" },
-        { "question": "Dans les comics Marvel, quel super-héros a un alter ego appelé Peter Parker ?" },
-        { "question": "Quel super-héros de DC Comics porte une cape et une combinaison bleue, et possède des pouvoirs d'hyper-vitesse ?" },
-        { "question": "Dans quel univers de BD belge a été créée la série \"Thorgal\", mettant en scène un héros viking ?" },
-        { "question": "Quelle série de bandes dessinées de science-fiction met en scène des personnages comme Valérian et Laureline ?" },
-        { "question": "Qui est le créateur de l'un des plus célèbres super-héros Marvel, Spider-Man ?" },
-        { "question": "Dans quel univers de comics DC, des personnages comme Superman et Batman coexistent ?" },
-        { "question": "Quel comic crée le personnage de Wolverine ?" },
-        { "question": "Dans la BD \"Tintin\", quel est le nom du chien qui accompagne Tintin dans ses aventures ?" },
-        { "question": "Quel super-héros de DC Comics est un avocat aveugle de jour, et un justicier masqué de nuit ?" },
-        { "question": "Quel super-héros de Marvel est connu pour son bouclier en vibranium ?" },
-        { "question": "Quel est le nom du super-héros qui porte le nom de \"L'homme chauve-souris\" ?" },
-        { "question": "Quel comics de DC se concentre sur un groupe de héros adolescents ?" },
-        { "question": "Dans les comics, quel super-héros porte un costume bleu et rouge et peut s'accrocher aux murs grâce à ses pouvoirs ?" },
-        { "question": "Dans quel comics le personnage de \"Le Joker\" a-t-il été créé ?" },
-        { "question": "Qui est le créateur de la bande dessinée \"Les Schtroumpfs\" ?" }
+        { "question": "Dans la bande dessinée \"Blake et Mortimer\", quel est le nom et le prénom du professeur qui fait partie des personnages principaux ?" },
+        { "question": "Dans la bande dessinée \"Spirou et Fantasio\", quel est le nom de l'inventeur un peu fou qui aide Spirou et Fantasio ?" },
+        { "question": "Dans la bande dessinée \"Gaston Lagaffe\", quel est le nom du patron de Gaston ?" },
+        { "question": "Qui est l’auteur des comics \"Watchmen\" ?" },
+        { "question": "Dans la bande dessinée belge, quel personnage porte un pantalon rouge et un pull bleu et résout des enquêtes avec son chien Milou ?" },
+        { "question": "Dans la série de BD \"Les Tuniques Bleues\", quel est le nom des deux soldats qui vivent des aventures durant la guerre de Sécession ?" },
+        { "question": "Dans les comics DC, quel est le nom de l'ennemi juré de Superman, qui a un pouvoir physique équivalent et un grand intellect ?" },
+        { "question": "Dans quelle BD voit-on un milliardaire aventurier qui se retrouve à diriger un empire financier ?" },
+        { "question": "Dans l'univers Marvel, quel super-héros est un soldat devenu un super-soldat grâce à un sérum expérimental et porte un bouclier étoilé ?" },
+        { "question": "Dans \"Les Schtroumpfs\", quel personnage est le Schtroumpf le plus intelligent, souvent vu avec un livre à la main ?" },
+        { "question": "Dans quel univers de comics se trouve le super-héros Superman ?" },
+        { "question": "Dans \"Corto Maltese\", dans quel type d'environnement se déroule la majorité des aventures de Corto ?" },
+        { "question": "Dans la bande dessinée \"Astérix\", quels sont les noms des camps romains qui entourent le village gaulois ?" },
+        { "question": "Quel est le genre de la série \"Les mondes d'Aldébaran\" ?" },
+        { "question": "Quel est le thème central de la BD \"Zombillénium\" ?" },
+        { "question": "Qui sont les créateurs des comics de Batman ?" }
       ]
     }
   ]
